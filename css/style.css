@@ -85,12 +85,6 @@ header, .navbar {
 
 /*--------------------Primeira página de resevas--------------------------*/
 
-.reserva1-mobile {
-  display: none;
-}
-
-/*--------------------Primeira página de resevas--------------------------*/
-
 .reserva1 {
 	position: absolute;
 	margin: auto;
@@ -145,6 +139,10 @@ label {
 	color: white;
 	font-size: 18px;
 	border-radius: 40px;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .buscar:hover {
