@@ -89,7 +89,9 @@ form {
   background-color: transparent;
   padding: 5px;
   border-radius: 15px;
+  outline: none;
 }
+
 .btn {
 	padding: 9px 24px;
 	text-decoration: none;
@@ -117,6 +119,14 @@ iframe {
   margin-left: -22px;
   border: 2px solid #b1a6a6;
   border-radius: 15px;
+}
+
+/* Action */
+.text-action {
+  color: black;
+  font-size: 28px;
+  margin-top: 287px;
+  text-align: center;
 }
 
 
@@ -315,5 +325,11 @@ iframe {
   }
   .pague {
     width: 200px;
+  }
+}
+@media (max-width: 321px) {
+  #logo {
+    width: 140px;
+    margin-left: 71px;
   }
 }
