@@ -83,6 +83,26 @@ p, li {
   margin: 40px 30px 10px;
   float: right;
 }
+.buscar {
+	padding: 15px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 2px;
+	background-color: rgb(186, 32, 119);
+	color: white;
+	font-size: 14px;
+	border-radius: 40px;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.buscar:hover {
+	display: inline-block;
+	transform: scale(0.98);
+}
 
 
 .destino1 {
