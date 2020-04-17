@@ -43,6 +43,7 @@ header, .navbar {
 }
 #navbar-links a {
     color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 #navbar-links a:hover {
   color: #b1a6a6;
@@ -340,14 +341,18 @@ a:hover {
     font-size: 32px;
 }
 #data-area p {
-    color: #FFF;
-    text-align: center;
-    font-size: 26px;
-    margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  text-align: center;
+  font-size: 26px;
+  margin-top: 20px;
 }
 
 /* Viage pelo Brasil */
 
+.card {
+  font-family: 'Roboto', sans-serif;
+}
 .card-body {
     text-align: center;
 }
@@ -398,6 +403,7 @@ a:hover {
 
 .site-footer {
   background-color:#26272b;
+  font-family: 'Roboto', sans-serif;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
