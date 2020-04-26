@@ -64,11 +64,18 @@ p, li {
 
   .container-fluid {
     padding: 0;
+    width: 100%
   }
+
+  .container {
+    width: 100%
+  }
+
   .btn {
     margin-right: 10px;
     width: 130px;
     height: 40px;
+    background-color: #3b5998 !important ; 
   }
   .bg {
     width: 100%;
@@ -96,7 +103,11 @@ p, li {
 #btn2 {
   margin:0 60px;
   font-size: 'Roboto', sans-serif;
+  background-color: #3b5998 !important ; 
+}
 
+#caixa {
+  background-color: #3b5998 !important ; 
 }
 
 h2 {
