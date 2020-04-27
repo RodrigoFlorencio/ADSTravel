@@ -67,10 +67,12 @@
 
         <!-------------------------------------------------------------------------------------------------------->
 
+        <!-------------------------------------------------Carrousel---------------------------------------------->
+
         <div class="container-fluid">
             <div class="row">
                 <div class="container">
-                    <br>
+                  <br>
                     <div class="container-fluid">
                       <div id="demo" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
@@ -89,24 +91,24 @@
                 
                           <div class="carousel-inner">
                             <div class="carousel-item active">
-                              <img class="d-block w-100" src="img/05.jpg" alt="" title=""
+                              <img class="d-block w-100" src="img/cruzeiro1.jpg" alt="" title=""
                                 >
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h12>Colocar Legenda</h12>
+                                    <h10>Colocar Legenda</h10>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                              <img class="d-block w-100" src="img/06.jpg" alt="" title=""
+                              <img class="d-block w-100" src="img/cruzeiro1.jpg" alt="" title=""
                                 >
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h12>Colocar Legenda</h12>
+                                    <h10>Colocar Legenda</h10>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                              <img class="d-block w-100" src="img/07.jpg" alt="" title=""
+                              <img class="d-block w-100" src="img/cruzeiro1.jpg" alt="" title=""
                                 >
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h12>Colocar Legenda</h12>
+                                    <h10>Colocar Legenda</h10>
                                 </div>
                             </div>
                           </div>
@@ -131,24 +133,30 @@
                       </div>
                     </div>
 
-                    <div class="container">
-                
+                                          <!-------Caixa de filtro--------->
+
+                    <div class="container">                
                       <div class="row">
-
-                        <div id="col1" class="col-sm-12 col-md-4">
-                          <div class="card" style="width: 21rem;">
-                            <div class="card-body">
-                              <div id="caixa" class="p-3 mb-2 bg-primary text-white text-center">                               
+                        <div id="col1" class="col-sm-6 col-md-4">
+						              <div class="card" >
+                            <div class="row no-gutters">                         
+                              <div class="card-body">
+                                <div id="caixa" class="p-3 mb-2 bg-primary text-white text-center">                               
                                     Filtrar Resultados                               
-                              </div>
-                              <br>
-                              <div class="card" style="width: 18,5rem;">
-                                <div class="card-header">
-                                    Companhia
                                 </div>
-                                <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">
-                                    <div class="form-check">
+                                <br>
+                                <div class="card" style="width: 18,5rem;">
+                                  <div class="card-header">
+                                    Operadora
+                                  </div>
+                                  <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Todas as companhias
+                                        </label>
+                                        <br>
                                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                         <label class="form-check-label" for="defaultCheck1">
                                             MSC Cruzeiros
@@ -161,102 +169,285 @@
                                         <br>
                                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                         <label class="form-check-label" for="defaultCheck1">
-                                            Disney Cruise Line
+                                            Costa Cruzeiros
                                         </label>
                                       </div>
-                                  </li>                                 
-                                </ul>
-                              </div>
-                              
-                              <br>
-
-                              <div class="card" style="width: 18,5rem;">
-                                <div class="card-header">
-                                    Companhia
+                                    </li>                                 
+                                  </ul>
                                 </div>
-                                <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">
-                                    <div class="form-check">
+                              
+                                <br>
+
+                                <div class="card" style="width: 18,5rem;">
+                                  <div class="card-header">
+                                    Navio
+                                  </div>
+                                  <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                      <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                         <label class="form-check-label" for="defaultCheck1">
-                                            MSC Cruzeiros
+                                            Todos os navios
                                         </label>
                                         <br>
                                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                         <label class="form-check-label" for="defaultCheck1">
-                                            Pullmantur
+                                            Costa Pacifica
                                         </label>
                                         <br>
                                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                         <label class="form-check-label" for="defaultCheck1">
-                                            Disney Cruise Line
+                                            Costa Fascinosa
+                                        </label>
+                                        <br>
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Soberano
+                                        </label>
+                                        <br>
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            MSC Fantasia
+                                        </label>
+                                        <br>
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            MSC Poesia
                                         </label>
                                       </div>
-                                  </li>                                 
-                                </ul>
-                              </div>
-                              
-                              <br>
-
-                              <div class="card" style="width: 18,5rem;">
-                                <div class="card-header">
-                                    Companhia
+                                    </li>                                 
+                                  </ul>
                                 </div>
-                                <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">
-                                    <div class="form-check">
+                              
+                                <br>
+
+                                <div class="card" style="width: 18,5rem;">
+                                  <div class="card-header">
+                                    Mês de embarque
+                                  </div>
+                                  <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                      <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                         <label class="form-check-label" for="defaultCheck1">
-                                            MSC Cruzeiros
+                                            Todos os meses de embarque
                                         </label>
                                         <br>
                                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                         <label class="form-check-label" for="defaultCheck1">
-                                            Pullmantur
+                                            2020 - Maio
                                         </label>
                                         <br>
                                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                         <label class="form-check-label" for="defaultCheck1">
-                                            Disney Cruise Line
+                                            2020 - Junho
+                                        </label>
+                                        <br>
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            2020 - Julho
+                                        </label>
+                                        <br>
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            2020 - Agosto
+                                        </label>
+                                        <br>
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            2020 - Setembro
+                                        </label>
+                                        <br>
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            2020 - Outubro
+                                        </label>
+                                        <br>
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            2020 - Novembro
+                                        </label>
+                                        <br>
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            2020 - Dezembro
                                         </label>
                                       </div>
-                                  </li>                                 
-                                </ul>
-                              </div>
-                              
-                              <br>
+                                    </li>                                 
+                                  </ul>
+                                </div>
 
-                              <button type="button" class="btn btn-primary btn-sm">Aplicar</button> 
-                              <button type="button" class="btn btn-primary btn-sm">Limpar</button>          
-                            </div>                     
+                                <br>
+
+                                <div class="card" style="width: 18,5rem;">
+                                  <div class="card-header">
+                                    Porto de embarque
+                                  </div>
+                                  <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Santos - São Paulo
+                                        </label>
+                                        <br>
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Rio de Janeiro
+                                        </label>
+                                        <br>
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Salvador
+                                        </label>
+                                        <br>
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Barcelona
+                                        </label>
+                                      </div>
+                                    </li>                                 
+                                  </ul>
+                                </div>
+
+                                <br>
+
+                                <div class="card" style="width: 18,5rem;">
+                                  <div class="card-header">
+                                    Porto de destino
+                                  </div>
+                                  <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Santos - São Paulo
+                                        </label>
+                                        <br>
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Rio de Janeiro
+                                        </label>
+                                        <br>
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Salvador
+                                        </label>
+                                        <br>
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Barcelona
+                                        </label>
+                                      </div>
+                                    </li>                                 
+                                  </ul>
+                                </div>
+                             
+                                <br>
+
+                                <button type="button" class="btn btn-primary btn-sm">Aplicar</button> 
+                                <button type="button" class="btn btn-primary btn-sm">Limpar</button>
+
+                              </div>                     
+                            </div>
                           </div>
+                        
                           <br><br>
+												  
                         </div>
 
+                              <!------Caixa com detalhes lado direiro------->
+
                         <div id="col2" class="col-sm-12 col-md-8">                                                     
-                            <div class="card" >
-                              <div class="row no-gutters">
-                                  <div class="col-md-6">
-                                      <img src="img/07.jpg" class="card-img-top h-100" id="card-img">
-                                  </div>
-                                  <div class="col-md-6">
-                                      <div class="card-body">
-                                        <h2 class="card-title">Nome do Cruzeiro</h2>
-                                        <p class="card-text" style="text-align: center;">Colocar informações aqui sobre preços e outras coisas.Colocar informações aqui sobre preços e outras coisas.Colocar informações aqui sobre preços e outras coisas.</p>                                         
-                                        <a href="#" id="btn2" class="btn btn-primary stretched-link card text-center">Ver detalhes</a> 
-                                      </div>
+                          <div class="card" >
+                            <div class="row no-gutters">
+                              <div class="col-md-6">
+                                  <img src="img/cruzeiro1.jpg" class="card-img-top h-100" id="card-img">
+                              </div>
+                                <div class="col-md-6">
+                                  <div class="card-body">
+                                    <h2 class="card-title">Costa Pacifica</h2>
+                                    <p class="card-text" style="text-align: center;">Colocar informações aqui sobre preços e outras coisas.Colocar informações aqui sobre preços e outras coisas.Colocar informações aqui sobre preços e outras coisas.</p>                                         
+                                    <a href="#" id="btn2" class="btn btn-primary stretched-link card text-center">Ver detalhes</a> 
                                   </div>
                                 </div>
                             </div>
-                        </div>
+                          </div>
+
+                          <br><br>
+
+                          <div class="card" >
+                            <div class="row no-gutters">
+                              <div class="col-md-6">
+                                  <img src="img/cruzeiro1.jpg" class="card-img-top h-100" id="card-img">
+                              </div>
+                                <div class="col-md-6">
+                                  <div class="card-body">
+                                    <h2 class="card-title">Costa Fascinosa</h2>
+                                    <p class="card-text" style="text-align: center;">Colocar informações aqui sobre preços e outras coisas.Colocar informações aqui sobre preços e outras coisas.Colocar informações aqui sobre preços e outras coisas.</p>                                         
+                                    <a href="#" id="btn2" class="btn btn-primary stretched-link card text-center">Ver detalhes</a> 
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+
+                          <br><br>
+
+                          <div class="card" >
+                            <div class="row no-gutters">
+                              <div class="col-md-6">
+                                  <img src="img/cruzeiro1.jpg" class="card-img-top h-100" id="card-img">
+                              </div>
+                                <div class="col-md-6">
+                                  <div class="card-body">
+                                    <h2 class="card-title">Soberano</h2>
+                                    <p class="card-text" style="text-align: center;">Colocar informações aqui sobre preços e outras coisas.Colocar informações aqui sobre preços e outras coisas.Colocar informações aqui sobre preços e outras coisas.</p>                                         
+                                    <a href="#" id="btn2" class="btn btn-primary stretched-link card text-center">Ver detalhes</a> 
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+
+                          <br><br>
+
+                          <div class="card" >
+                            <div class="row no-gutters">
+                              <div class="col-md-6">
+                                  <img src="img/cruzeiro1.jpg" class="card-img-top h-100" id="card-img">
+                              </div>
+                                <div class="col-md-6">
+                                  <div class="card-body">
+                                    <h2 class="card-title">MSC Fantasia</h2>
+                                    <p class="card-text" style="text-align: center;">Colocar informações aqui sobre preços e outras coisas.Colocar informações aqui sobre preços e outras coisas.Colocar informações aqui sobre preços e outras coisas.</p>                                         
+                                    <a href="#" id="btn2" class="btn btn-primary stretched-link card text-center">Ver detalhes</a> 
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+
+                          <br><br>
+
+                          <div class="card" >
+                            <div class="row no-gutters">
+                              <div class="col-md-6">
+                                  <img src="img/cruzeiro1.jpg" class="card-img-top h-100" id="card-img">
+                              </div>
+                                <div class="col-md-6">
+                                  <div class="card-body">
+                                    <h2 class="card-title">MSC Poesia</h2>
+                                    <p class="card-text" style="text-align: center;">Colocar informações aqui sobre preços e outras coisas.Colocar informações aqui sobre preços e outras coisas.Colocar informações aqui sobre preços e outras coisas.</p>                                         
+                                    <a href="#" id="btn2" class="btn btn-primary stretched-link card text-center">Ver detalhes</a> 
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
                         </div>
 
-                      </div>         
-                    </div>
+                      </div>
+                    </div>         
                 </div>
             </div>
-        </div>
-
+        </div>        
         <!--------------------------------------------Footer------------------------------------------------------->
         
         <footer class="site-footer">
