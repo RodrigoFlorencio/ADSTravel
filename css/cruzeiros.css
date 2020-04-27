@@ -7,7 +7,6 @@ body {
     font-size: 'Roboto', sans-serif;
     background-image: url(../img/001.jpg);
     background-size: 100%;
-	  background-position-y: -100px;
 	  background-repeat: no-repeat;
 	  background-attachment: fixed;
 }
@@ -75,7 +74,8 @@ p, li {
     margin-right: 10px;
     width: 130px;
     height: 40px;
-    background-color: #3b5998 !important ; 
+    background-color: #3b5998 !important ;
+    font-size: 'Roboto', sans-serif;
   }
   .bg {
     width: 100%;
@@ -101,7 +101,7 @@ p, li {
   }
 
 #btn2 {
-  margin:0 60px;
+  margin:auto;
   font-size: 'Roboto', sans-serif;
   background-color: #3b5998 !important ; 
 }
@@ -139,6 +139,15 @@ h12 {
   margin-top: 30px; 
   width: 1150px;
   height: 400px;
+}
+
+#card-img {
+  width: 100%;
+}
+
+#card-text {
+  background-color: white;
+  margin: 0
 }
 
 /* Footer */
