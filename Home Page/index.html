@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="./img/icon.png">
+        <title>ADS Travel - Agência de viagem</title>
+        <meta name="description" content="Projeto Site de Turismo desenvolvido pela turma de ADS 1B da UNICID Dipirona Ácida.">
+
+        <!--Fonte-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Script -->
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <!--Font Awesome-->
+        <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+
+        <!--Progress Bar-->
+        <script src="js/progressbar.min.js"></script>
+
+        <!--Parallax-->
+        <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+   </head>
+
+    <body>
+
+        <header>
+            <div class="container" id="nav-container">
+                <nav class="navbar navbar-expand-lg fixed-top">
+                    <a href="index.html" class="navbar-brand">
+                        <img id="logo" src="img/logo.png" alt="ADS Travel">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" 
+                    aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                        <div class="navbar-nav">
+                            <a href="index.html" class="nav-item nav-link" id="home-menu">Home</a>
+                            <a href="pacotes.html" class="nav-item nav-link" id="about-menu">Pacotes</a>
+                            <a href="cruzeiros.html" class="nav-item nav-link" id="services-menu">Cruzeiros</a>
+                            <a href="resorts.html" class="nav-item nav-link" id="team-menu">Resorts</a>
+                            <a href="passagens.html" class="nav-item nav-link" id="portfolio-menu">Passagens</a>
+                            <a href="turismo.html" class="nav-item nav-link" id="contact-menu">Turismo</a>
+                            <a href="contato.html" class="nav-item nav-link" id="contact-menu">Contato</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="container-fluid">
+               <div class="row">
+                   <div class="bg img-fluid">
+                        <div class="reserva">
+                            
+                            <section class="topo-int">
+
+                                <div class="flex col-md-12">
+                
+                                    <div id="menu1" onclick="um()" class="res"><p>VOOS<p></div>
+                
+                                    <div id="menu2" onclick="dois()" class="res"><p>HOTEIS<p></div>
+                
+                                    <div id="menu3" onclick="tres()" class="res"><p>CARROS<p></div>
+                
+                                </div>
+                
+        <!---------------------------------------------------------------------------------------------------------->		
+        <!-------------------------------------------Primeira página de resevas------------------------------------->
+                
+                
+                                <div id="cont" class="reserva1">
+                                    <input type="radio" name="bo" checked="yes">
+                                        Ida e Volta 
+                                    <input type="radio" name="bo">
+                                        Só Ida<br><br>
+                                    <label class="from">Origem</label><label class="to">Destino</label><label class="cabin-class">Cabin Class</label><br>
+                
+                                    <select class="input" name="from">
+                
+                                        <option class="input">São Paulo (BR)</option>
+                                        <option>Rio de Janeiro</option>
+                                        <option>Rio Grande do Sul</option>
+                                        <option>Florianópolis</option>
+                                        <option>Santa Catarina</option>
+                
+                                    </select>
+                
+                                    <select class="input" name="destino">
+                
+                                        <option class="input">São Paulo (BR)</option>
+                                        <option>Rio de Janeiro</option>
+                                        <option>Rio Grande do Sul</option>
+                                        <option>Florianópolis</option>
+                                        <option>Santa Catarina</option>
+                
+                                    </select>
+                
+                                    <select class="cabin">
+                
+                                        <option>Economy</option>
+                                        <option>Premium Economy</option>
+                                        <option>Business</option>
+                                        <option>First</option>
+                
+                                    </select><br>
+                
+                                    <label class="departure">Ida</label><label class="return">Volta</label><label class="adults">Adultos (+16)</label><label class="children">Crianças</label><br>
+                
+                                    <input class="input2" id="departure" name="departure" type="date" placeholder="Digite destino">
+                                    
+                                    <input class="input2" id="return" name="return" type="date">
+                
+                                    <input class="input2" id="quantity" name="quantity" type="number" min="1" max="10">
+                                    
+                                    <input class="input2" id="quantity" name="quantity" type="number" min="1" max="10">
+                
+                
+                                    <a class="buscar" href="passagens.html">Buscar</a>
+                                </div>
+                
+                
+        <!---------------------------------------------------------------------------------------------------------->		
+        <!-------------------------------------------Segunda página de resevas-------------------------------------->
+                
+                
+                
+                                <div id="cont2" class="reserva2">
+                
+                                    <input type="radio" name="b1" checked="yes">
+                                        Trabalho 
+                
+                                    <input type="radio" name="b1">
+                
+                                        Férias<br><br>
+                
+                                    <label class="destino">Destino</label><label class="quartos">Quartos</label><label class="classificacao">Classificação Por Estrelas</label><br>
+                
+                                    <select class="input-reserva2" name="from">
+                
+                                        <option>São Paulo (BR)</option>
+                                        <option>Rio de Janeiro</option>
+                                        <option>Rio Grande do Sul</option>
+                                        <option>Florianópolis</option>
+                                        <option>Santa Catarina</option>
+                
+                                    </select>
+                
+                                    <select class="input-reserva2" name="quartos">
+                
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                
+                                    </select>
+                
+                                    <select class="input-reserva2 estrelas" name="estrelas">
+                
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                
+                                    </select><br>
+                
+                                    <label class="chegada">Chegada</label><label class="saida">Saída</label><label class="adults">Adultos (16+)</label><label class="children">Crianças</label><br>
+                
+                                    <input class="input2" id="departure" name="departure" type="date" placeholder="Digite destino">
+                                    
+                                    <input class="input2" id="return" name="return" type="date" placeholder="Digite destino">
+                
+                                    <input class="input2" id="quantity" name="quantity" type="number" min="1" max="10">
+                                    
+                                    <input class="input2" id="quantity" name="quantity" type="number" min="1" max="10">
+                
+                
+                                    <a class="buscar-h" href="#">Buscar Hoteis</a>
+                                </div>
+                
+                
+        <!---------------------------------------------------------------------------------------------------------->		
+        <!-------------------------------------------Terceira página de resevas------------------------------------->
+                
+                
+                
+                                <div id="cont3" class="reserva3">
+                
+                                    <input type="checkbox" name="" >
+                
+                                        Devolver carro em lugar diferente<br><br>
+                
+                                    <label class="selecionar">Selecionar carro</label><label class="awd"></label><br>
+                
+                                    <select class="input-reserva2" name="from">
+                
+                                        <option>Gurgel</option>
+                                        <option>Argo</option>
+                                        <option>Ka</option>
+                                        <option>Versa</option>
+                                        <option>Onix</option>
+                
+                                    </select><br>
+                
+                                    <label class="departure">Ida</label><label class="return">Volta</label><br>
+                
+                                    <input class="input2" id="departure" name="departure" type="date" placeholder="Digite destino">
+                                    
+                                    <input class="input2" id="return" name="return" type="date" placeholder="Digite destino">
+                
+                                    <a class="buscar b-c" href="#">Buscar Carro</a>
+                
+                                </div>
+                
+                        </section>
+
+                        </div>
+                    </div>
+               </div> 
+            </div>
+
+        <!---------------------------------------------Ofertas--------------------------------------------------->
+
+                <div id="about-area">
+                    <div class="container">
+                
+                        <h3 class="main-title">Ofertas Incríveis</h3>
+                    
+                        
+                        
+                    </div>
+                    <div class="second">
+
+                        <div class="second-int">
+
+                            <img class="img1" src="./img/img05.jpg">
+                            <img class="img2" src="./img/img08.jpg">
+                            <img class="img2" src="./img/img09.jpg">
+
+                        </div>
+                    </div>
+                </div>
+
+        <!----------------------------------------Dados da empresa----------------------------------------------->
+
+                <div id="data-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 circle-box">
+                                <div id="circleA"></div>
+                                <p>Pacotes vendidos</p>
+                            </div>
+                            <div class="col-md-3 circle-box">
+                                <div id="circleB"></div>
+                                <p>Clientes Felizes</p>
+                            </div>
+                            <div class="col-md-3 circle-box">
+                                <div id="circleC"></div>
+                                <p>Colaboradores</p>
+                            </div>
+                            <div class="col-md-3 circle-box">
+                                <div id="circleD"></div>
+                                <p>Cafézinhos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        <!----------------------------------------Viage pelo Brasil---------------------------------------------->
+
+                <div id="team-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="main-title">Viaje pelo Mundo com nossas promoções imperdíveis!</h3>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img src="img/vg01.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cruzeiros</h5>
+                                        <p class="card-text">4 Noites / 5 Dias Dias<br><br><br>
+                                            A partir<br>
+                                            R$ 3.499<br>
+                                            Em 12x | + Taxas</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img src="img/vg02.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">New York</h5>
+                                        <p class="card-text">2 Dias e 1 Diária<br><br><br>
+                                            A partir<br>
+                                            R$ 12.220<br>
+                                            Em 12x | + Taxas</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img src="img/vg03.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Asia</h5>
+                                        <p class="card-text">2 Dias e 1 Diária<br><br><br>
+                                            A partir<br>
+                                            R$ 10.559<br>
+                                            Em 12x | + Taxas</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img src="img/vg04.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Abu Dhabi</h5>
+                                        <p class="card-text">2 Dias e 1 Diária<br><br><br>
+                                            A partir<br>
+                                            R$ <br>
+                                            Em 12x | + Taxas</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+        <!-------------------------------------------Gallery----------------------------------------------------->
+
+                <div class="gallery">
+                    <div class="box a"><img src="./img/19.jpg"></div>
+                    <div class="box b"><img src="./img/06.jpg"></div>
+                    <div class="box c"><img src="./img/07.jpg"></div>
+                    <div class="box d"><img src="./img/08.jpg"></div>
+                    <div class="box e"><img src="./img/05.jpg"></div>
+                    <div class="box f"><img src="./img/10.jpg"></div>
+                    <div class="box g"><img src="./img/11.jpg"></div>
+                    <div class="box h"><img src="./img/12.jpg"></div>
+                    <div class="box i"><img src="./img/13.jpg"></div>			
+                    <div class="box j"><img src="./img/18.jpg"></div>
+                </div>   
+
+            </div>
+        </main>
+
+        <!--------------------------------------------Footer------------------------------------------------------->
+        
+        <footer class="site-footer">
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                <h6>Sobre a Agência</h6><br>
+                <p class="text-justify">Tudo começou quando entramos na faculdade<br>
+                    e logo o professor nos obrigou a criar um<br>
+                    site de turismo. Foi assim que nasceu a agência.<br><br></p>
+                </div>
+    
+                <div class="col-xs-6 col-md-3">
+                <h6>Mapa do Site</h6><br>
+
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pacotes</a></li>
+                    <li><a href="#">Cruzeiros</a></li>
+                    <li><a href="#">Resorts</a></li>
+                    <li><a href="#">Passagens</a></li>
+                    <li><a href="#">Turismo</a></li>
+                    <li><a href="#">Contato</a></li>
+                </div>
+    
+                <div class="col-xs-6 col-md-3">
+                <h6>Pague com</h6><br>
+                    <div>
+                        <img src="img/pag.png" class="pague" alt="" >
+                    </div>
+                </div>
+            </div>
+            <hr>
+            </div>
+            <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+            <a href="#">Dipirona Ácida</a>.
+                </p>
+                </div>
+    
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                <ul class="social-icons">
+                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+                </ul>
+                </div>
+            </div>
+            </div>
+        </footer>
+
+        <script src="js/script.js"></script>
+
+    </body>
+
+</html>
