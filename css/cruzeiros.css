@@ -152,6 +152,12 @@ h8 {
   font-family: 'Oswald', sans-serif;
 }
 
+#linha {
+  margin-left: -19px;
+  background-color: #22A9BF!important ;
+  height: 2px;
+}
+
 #imagem {
   background-size: cover !important;
 }
