@@ -62,11 +62,12 @@ p, li {
 
   .container-fluid {
     padding: 0;
-    width: 100%
+    width: 100%;
+    margin-bottom: -90px;
   }
 
   .container {
-    width: 100%
+    width: 100%;
   }
 
   .bg {
@@ -156,6 +157,8 @@ h11 {
 
 .carousel-inner {
   background-size: cover !important;
+  background-attachment: fixed;
+
 }
 
 .carousel-inner img {
@@ -164,9 +167,13 @@ h11 {
 }
 
 .carousel-item {
+  margin-top: 50px;
+}
+
+.carousel-item10 {
   margin-top: 30px; 
   width: 1150px;
-  height: 400px;
+  height: 500px;
 }
 
 #card-img {
@@ -180,6 +187,10 @@ h11 {
 
 #texto {
   font-size: 16px;
+}
+
+#caixa1 {
+  margin-top: 70px;
 }
 
 /* Footer */
