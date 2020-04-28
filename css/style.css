@@ -1182,8 +1182,8 @@ a:hover {
 @media (max-width:375px) {
 
   #logo {
-    width: 136px;
-    margin-left: 71px;
+    width: 235px;
+    margin-left: 14px;
   }
   .flex {
     display: flex;
@@ -1335,8 +1335,8 @@ a:hover {
 @media (max-width:321px) {
 
   #logo {
-    width: 136px;
-    margin-left: 71px;
+    width: 188px;
+    margin-left: 11px;
   }
   .flex {
     display: flex;
