@@ -367,3 +367,19 @@ h8 {
     font-weight:600
   }
 }
+
+@media (max-width:375px) {
+
+  #logo {
+    width: 235px;
+    margin-left: 14px;
+  }
+}
+
+@media (max-width:321px) {
+
+  #logo {
+    width: 188px;
+    margin-left: 11px;
+  }
+}
