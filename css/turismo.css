@@ -122,11 +122,21 @@ p, li {
   margin-top: 28px;
 }
 
+h4{
+  font-family: 'Roboto', sans-serif, bold;
+  color: rgb(186, 32, 119);
+  font-size: 30px;
+}
 
 h3 {
   padding: 26px;
   font-size: 20px;
 }
+
+h2{
+  color:pink;
+}
+
 .buscar {
   padding: 15px 36px;
   margin-left: 130px;
