@@ -238,8 +238,7 @@ a:hover {
 	background-color: rgb(186, 32, 119);
 	color: white;
 	font-size: 16px;
-  border-radius: 40px;
-  background-attachment: fixed;
+	border-radius: 40px;
 }
 
 .buscar-h:hover {
