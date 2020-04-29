@@ -120,6 +120,7 @@ header, .navbar {
   padding: 10px;
   margin: 0 50px;
   padding: 15px 36px;
+  margin-top: 22px;
 }
 
 #caixa {
@@ -138,11 +139,25 @@ h2 {
   font-size: 'Roboto', sans-serif;
 }
 
+#texto-card {
+  text-align: center;
+  font-size: 'Roboto', sans-serif;
+  color: rgba(31,39,70,0.9);
+  font-size: 22px;
+}
+
 h10 {
   color: white;
   text-align: center;
   font-size: 23px;
   font-family: 'Oswald', sans-serif;
+}
+
+h9 {
+  text-align: center;
+  font-size: 'Roboto', sans-serif;
+  color: dark;
+  font-size: 16px;
 }
 
 h8 {
@@ -156,6 +171,12 @@ h8 {
   margin-left: -19px;
   background-color: #22A9BF!important ;
   height: 2px;
+}
+
+#linha2 {
+  background-color: #22A9BF!important ;
+  height: 2px;
+  margin-bottom: -30px;
 }
 
 #imagem {
@@ -221,6 +242,7 @@ h8 {
 	border-bottom-left-radius: 10px;
   font-size: 16px;	
 }
+
 /* Footer */
 
 
