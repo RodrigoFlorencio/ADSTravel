@@ -73,8 +73,8 @@ p, li {
     margin-top: 10px;
     margin-bottom: 40px;
 }
-
-
+ 
+/* carrousel 1 */
 .container-fluid {
     padding: 0;
 }
@@ -95,6 +95,79 @@ p, li {
     margin-bottom: 100px;
     color: #fff;
 }
+/* carrousel 1 */
+
+/* carrousel 2 */
+.container-fluid {
+  padding: 0;
+}
+#mainSlider2 .carousel-inner, #mainSlider2 .carousel-item {
+  height: 350px;
+  margin-top: 15px;
+}
+#mainSlider2 .carousel-caption {
+  top: 30%;
+}
+#mainSlider2 .carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+#mainSlider2 .carousel-caption p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #fff;
+}
+/* carrousel 2 */
+
+/* carrousel 3 */
+.container-fluid {
+  padding: 0;
+}
+#mainSlider3 .carousel-inner, #mainSlider3 .carousel-item {
+  height: 350px;
+  margin-top: 15px;
+}
+#mainSlider3 .carousel-caption {
+  top: 30%;
+}
+#mainSlider3 .carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+#mainSlider3 .carousel-caption p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #fff;
+}
+/* carrousel 3 */
+
+/* carrousel 4 */
+.container-fluid {
+  padding: 0;
+}
+#mainSlider4 .carousel-inner, #mainSlider4 .carousel-item {
+  height: 350px;
+  margin-top: 15px;
+}
+#mainSlider4 .carousel-caption {
+  top: 30%;
+}
+#mainSlider4 .carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+#mainSlider4 .carousel-caption p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #fff;
+}
+/* carrousel 4 */
+
+
+
 .main-btn {
     background-color: #65daf9;
     color: #FFF;
