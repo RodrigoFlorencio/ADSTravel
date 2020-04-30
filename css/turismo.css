@@ -24,7 +24,7 @@ p, li {
       background-color: #1F2746;
   }
   #nav-container {
-      padding-top: 0;
+      padding-top: 0 auto;
       padding-bottom: 0;
   }
   #logo {
@@ -54,8 +54,26 @@ p, li {
 
 .paralax{
   background-image: url(../img/001.jpg);
-  background-size: cover;
+  background-size: 100%;
   background-attachment: fixed;
+}
+
+#men{
+  margin: 0px auto;
+  margin-top: 100px;
+  max-width: 400px ;
+  min-width: 30px;
+  max-height:100px ;
+  min-height: 70px;
+  border-radius: 40px;
+  background-color:rgba(31,39,70,0.9);
+  color: #FFF;
+}
+
+#titulo{
+  font-family: 'Roboto', sans-serif;
+  font-size: 38px;
+  text-align: center;
 }
 
 
@@ -73,8 +91,8 @@ p, li {
     margin-top: 10px;
     margin-bottom: 40px;
 }
-
-
+ 
+/* carrousel 1 */
 .container-fluid {
     padding: 0;
 }
@@ -95,6 +113,79 @@ p, li {
     margin-bottom: 100px;
     color: #fff;
 }
+/* carrousel 1 */
+
+/* carrousel 2 */
+.container-fluid {
+  padding: 0;
+}
+#mainSlider2 .carousel-inner, #mainSlider2 .carousel-item {
+  height: 350px;
+  margin-top: 15px;
+}
+#mainSlider2 .carousel-caption {
+  top: 30%;
+}
+#mainSlider2 .carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+#mainSlider2 .carousel-caption p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #fff;
+}
+/* carrousel 2 */
+
+/* carrousel 3 */
+.container-fluid {
+  padding: 0;
+}
+#mainSlider3 .carousel-inner, #mainSlider3 .carousel-item {
+  height: 350px;
+  margin-top: 15px;
+}
+#mainSlider3 .carousel-caption {
+  top: 30%;
+}
+#mainSlider3 .carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+#mainSlider3 .carousel-caption p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #fff;
+}
+/* carrousel 3 */
+
+/* carrousel 4 */
+.container-fluid {
+  padding: 0;
+}
+#mainSlider4 .carousel-inner, #mainSlider4 .carousel-item {
+  height: 350px;
+  margin-top: 15px;
+}
+#mainSlider4 .carousel-caption {
+  top: 30%;
+}
+#mainSlider4 .carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+#mainSlider4 .carousel-caption p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #fff;
+}
+/* carrousel 4 */
+
+
+
 .main-btn {
     background-color: #65daf9;
     color: #FFF;
@@ -122,6 +213,13 @@ p, li {
   margin-top: 28px;
 }
 
+#titlecard{
+  padding-top: 15px;
+  text-align: center;
+}
+
+
+
 h4{
   font-family: 'Roboto', sans-serif, bold;
   color: rgb(186, 32, 119);
@@ -135,6 +233,11 @@ h3 {
 
 h2{
   color:pink;
+}
+
+#imagem{
+  height: 100%;
+  width: 100%;
 }
 
 .buscar {
@@ -166,6 +269,7 @@ a:hover {
 
 .site-footer {
     background-color:#26272b;
+    margin-top: -50px;
     padding:45px 0 20px;
     font-size:15px;
     line-height:24px;
