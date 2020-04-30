@@ -5,6 +5,9 @@
 
 body {
     font-size: 'Roboto', sans-serif;
+    background-image: url(../img/bg.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
 }
 .row {
     margin: 0;
@@ -81,12 +84,6 @@ p, li {
       font-size: 23px;
       color: white;
       font-family: 'Oswald', sans-serif;
-  }
-  .corpo {
-  display: block;
-  width: 800px;
-  height: 3000px;
-  background-color: white;
   }
   .filtro{
     display: block;
