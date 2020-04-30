@@ -117,9 +117,8 @@ header, .navbar {
 	color: white;
 	font-size: 15px;
   border-radius: 40px;
-  padding: 10px;
   margin: 0 50px;
-  padding: 15px 36px;
+  padding: 15px ;
   margin-top: 22px;
 }
 
@@ -244,7 +243,6 @@ h8 {
 }
 
 /* Footer */
-
 
 .site-footer {
   background-color:#26272b;
