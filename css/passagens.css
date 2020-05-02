@@ -57,7 +57,7 @@ p, li {
 /* BG */
 
 .topo {
-  height: 800px;
+  height: 1500px;
   background-image: url(../img/001.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -87,7 +87,18 @@ label {
 	margin-left: 19px;
 }
 .to {
-	margin-left: 237px;
+	margin-left: 163px;
+}
+.date {
+margin-left: 164px;
+}
+.num-pass {
+  margin-left: 191px;
+}
+.icon-voo {
+  position: absolute;
+  margin-left: 187px;
+  margin-top: 50px;
 }
 .buscar {
 	padding: 15px 36px;
@@ -111,7 +122,7 @@ a:hover {
 }
 
 .input {
-	width: 360px;
+	width: 170px;
   height: 47px;
   margin: 15px;
   margin-right: 35px;
@@ -125,8 +136,8 @@ a:hover {
 	margin: 15px;
 	font-size: 15px;
 	padding: 5px;
-
 }
+
   
   
   
@@ -279,18 +290,181 @@ a:hover {
     }
   }
 
+
+
+
+/*                Media Query                   */
+
+
+@media (max-width: 768px) {
+
+  .from {
+    margin-left: 19px;
+    margin-top: 7px;
+    position: absolute;
+  }
+  .to {
+    margin-left: 241px;
+    margin-top: 7px;
+    position: absolute;
+  }
+  .date {
+    margin-left: 466px;
+    margin-top: 7px;
+    position: absolute;
+  }
+  .num-pass {
+    margin-left: 19px;
+    margin-top: 87px;
+    position: absolute;
+  }
+  .pague {
+    width: 200px;
+    margin-left: -28px;
+    margin-top: 37px;
+  }
+}
+
+
+
+
+@media (max-width: 426px) {
+  .topo {
+    height: 4840px;
+    background-image: url(../img/001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 70px;
+  }
+  .icon-voo {
+    display: none;
+  }
+  .input {
+    width: 135px;
+    height: 47px;
+    margin: 0px 23px 65px;
+    margin-right: 35px;
+    font-size: 15px;
+    padding: 5px;
+  }
+  .from {
+    margin-left: 25px;
+    margin-top: -8px;
+    position: absolute;
+  }
+  .to {
+    margin-left: 220px;
+    margin-top: -8px;
+    position: absolute;
+  }
+  .date {
+    margin-left: 24px;
+    margin-top: 106px;
+    position: absolute;
+  }
+  .num-pass {
+    margin-left: 220px;
+    margin-top: 106px;
+    position: absolute;
+  }
+  .buscar {
+    padding: 15px 66px;
+    margin-left: 86px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    background-color: rgb(186, 32, 119);
+    color: white;
+    font-size: 18px;
+    border-radius: 40px;
+  }
+  .card {
+    margin-bottom: 15px;
+  }
+
+}  
+
+
+
+
 @media (max-width:375px) {
 
   #logo {
     width: 235px;
     margin-left: 14px;
   }
+  .input {
+    width: 290px;
+    height: 47px;
+    margin: 0px 23px 65px;
+    margin-right: 35px;
+    font-size: 15px;
+    padding: 5px;
+  }
+  .from {
+    margin-left: 25px;
+    margin-top: -8px;
+    position: absolute;
+  }
+  .to {
+    margin-left: 25px;
+    margin-top: 106px;
+    position: absolute;
+  }
+  .date {
+    margin-left: 25px;
+    margin-top: 219px;
+    position: absolute;
+  }
+  .num-pass {
+    margin-left: 25px;
+    margin-top: 327px;
+    position: absolute;
+  }
+  .buscar {
+    padding: 15px 66px;
+    margin-left: 65px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    background-color: rgb(186, 32, 119);
+    color: white;
+    font-size: 18px;
+    border-radius: 40px;
+  }
+
 }
 
 @media (max-width:321px) {
 
+  .topo {
+    height: 4500px;
+  }
   #logo {
     width: 188px;
     margin-left: 11px;
+  }
+  .input {
+    width: 240px;
+    height: 47px;
+    margin: 0px 23px 65px;
+    margin-right: 35px;
+    font-size: 15px;
+    padding: 5px;
+  }
+  .buscar {
+    padding: 15px 66px;
+    margin-left: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    background-color: rgb(186, 32, 119);
+    color: white;
+    font-size: 18px;
+    border-radius: 40px;
   }
 }
