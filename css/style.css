@@ -1010,6 +1010,18 @@ a:hover {
   }
 }
 
+
+@media (max-width: 768px) {
+
+  .pague {
+    width: 200px;
+    margin-left: -28px;
+    margin-top: 37px;
+  }
+}
+
+
+
 @media (max-width:425px) {
 
   .bg {
