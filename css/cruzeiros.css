@@ -119,7 +119,8 @@ header, .navbar {
   border-radius: 40px;
   margin: 0 50px;
   padding: 15px ;
-  margin-top: 22px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 #caixa {
@@ -143,6 +144,8 @@ h2 {
   font-size: 'Roboto', sans-serif;
   color: rgba(31,39,70,0.9);
   font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h10 {
@@ -240,6 +243,11 @@ h8 {
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
   font-size: 16px;	
+}
+
+#card-estilo {
+  margin-bottom: -17px;
+  margin-top: -17px;
 }
 
 /* Footer */
