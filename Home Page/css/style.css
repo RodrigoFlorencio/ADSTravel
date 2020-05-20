@@ -112,17 +112,10 @@ label {
 	margin-left: 19px;
 }
 .to {
-<<<<<<< HEAD
-	margin-left: 357px;
+	margin-left: 356px;
 }
 .cabin-class {
-	margin-left: 360px;
-=======
-	margin-left: 374px;
-}
-.cabin-class {
-	margin-left: 398px;
->>>>>>> 9e806d4acb0891034e652fa201d086771d10133e
+	margin-left: 359px;
 }
 .departure {
 	margin-left: 14px;
@@ -1189,8 +1182,8 @@ a:hover {
 @media (max-width:375px) {
 
   #logo {
-    width: 235px;
-    margin-left: 14px;
+    width: 136px;
+    margin-left: 71px;
   }
   .flex {
     display: flex;
@@ -1342,8 +1335,8 @@ a:hover {
 @media (max-width:321px) {
 
   #logo {
-    width: 188px;
-    margin-left: 11px;
+    width: 136px;
+    margin-left: 71px;
   }
   .flex {
     display: flex;

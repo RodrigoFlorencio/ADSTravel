@@ -902,6 +902,299 @@ p, li {
     padding: 0;
     font-weight:normal;
   }
+  .continente3 {
+    display: block;
+    height: 400px;
+    width: 1000px;
+    margin: 20px auto auto 180px;
+    background-color: rgb(31,39,70);
+    border-radius: 10px;
+  }
+  .continente3 h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    color: rgb(186, 32, 119);
+    font-weight: bold;
+  }
+  .cidade31{
+    display: block;
+    height: 160px;
+    width: 460px;
+    margin: 20px auto auto 60px;
+    background-color: rgb(186, 32, 119);
+    border-radius: 10px;
+    position: relative;
+    bottom: 5px;
+    right: 40px;
+ }
+  .imgcid31{
+    display: block;
+    height: 150px;
+    width: 230px;
+    background-image: url(../img/singa.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+  }
+  .cidade31 h1{
+    color: white;
+    font-size: 14pt;
+    padding-top: 20px;
+  }
+  .cidade31 p{
+    color: white;
+    padding: 0px 20px 0px 20px;
+    text-align: justify;
+  }
+  .asidecid31{
+    display: block;
+    padding: 4;
+    height: 150px;
+    width: 230px;
+    position: relative;
+    left: 230px;
+    bottom: 160px;
+  }
+  .reservarcid31{
+  width: 80pt;
+  left: 110px;
+  bottom: 10px;
+  font-size: 10pt;
+  color: white;
+  background-color:rgb(31,39,70);
+  border-radius: 10px;
+  position: relative;
+  }
+  .precocid31{
+    display:block;
+    background-color: rgb(31,39,70);
+    border-radius: 10px;
+    height: 25px;
+    width: 90px;
+    position: relative;
+    left: 15px;
+    bottom: 35px;
+    border-color: white;
+    border-style: ridge;
+  }
+  .precocid31 h1{
+    font-size: 10pt;
+    text-align: center;
+    padding: 0;
+    font-weight:normal;
+  }
+ 
+  .cidade32{
+    display: block;
+    height: 160px;
+    width: 460px;
+    margin: 20px auto auto 60px;
+    background-color: rgb(186, 32, 119);
+    border-radius: 10px;
+    position: relative;
+    bottom: 186px;
+    left: 460px;
+  }
+ .imgcid32{
+    display: block;
+    height: 150px;
+    width: 230px;
+    background-image: url(../img/bang.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+  }
+  .cidade32 h1{
+    color: white;
+    font-size: 14pt;
+    padding-top: 20px;
+  }
+  .cidade32 p{
+    color: white;
+    padding: 0px 20px 0px 20px;
+    text-align: justify;
+  }
+  .asidecid32{
+    display: block;
+    padding: 4;
+    height: 150px;
+    width: 230px;
+    position: relative;
+    left: 230px;
+    bottom: 160px;
+  }
+  .reservarcid32{
+  width: 80pt;
+  left: 110px;
+  bottom: 10px;
+  font-size: 10pt;
+  color: white;
+  background-color:rgb(31,39,70);
+  border-radius: 10px;
+  position: relative;
+  }
+  .precocid32{
+    display:block;
+    background-color: rgb(31,39,70);
+    border-radius: 10px;
+    height: 25px;
+    width: 90px;
+    position: relative;
+    left: 15px;
+    bottom: 35px;
+    border-color: white;
+    border-style: ridge;
+  }
+  .precocid32 h1{
+    font-size: 10pt;
+    text-align: center;
+    padding: 0;
+    font-weight:normal;
+  }
+
+  .cidade33{
+    display: block;
+    height: 160px;
+    width: 460px;
+    margin: 20px auto auto 60px;
+    background-color: rgb(186, 32, 119);
+    border-radius: 10px;
+    position: relative;
+    bottom: 185px;
+    right: 40px;
+  }
+ .imgcid33{
+    display: block;
+    height: 150px;
+    width: 230px;
+    background-image: url(../img/bali.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+  }
+  .cidade33 h1{
+    color: white;
+    font-size: 14pt;
+    padding-top: 20px;
+  }
+  .cidade33 p{
+    color: white;
+    padding: 0px 20px 0px 20px;
+    text-align: justify;
+  }
+  .asidecid33{
+    display: block;
+    padding: 4;
+    height: 150px;
+    width: 230px;
+    position: relative;
+    left: 230px;
+    bottom: 160px;
+  }
+  .reservarcid33{
+  width: 80pt;
+  left: 110px;
+  bottom: 10px;
+  font-size: 10pt;
+  color: white;
+  background-color:rgb(31,39,70);
+  border-radius: 10px;
+  position: relative;
+  }
+  .precocid33{
+    display:block;
+    background-color: rgb(31,39,70);
+    border-radius: 10px;
+    height: 25px;
+    width: 90px;
+    position: relative;
+    left: 15px;
+    bottom: 35px;
+    border-color: white;
+    border-style: ridge;
+  }
+  .precocid33 h1{
+    font-size: 10pt;
+    text-align: center;
+    padding: 0;
+    font-weight:normal;
+  }
+  .cidade34{
+    display: block;
+    height: 160px;
+    width: 460px;
+    margin: 20px auto auto 60px;
+    background-color: rgb(186, 32, 119);
+    border-radius: 10px;
+    position: relative;
+    bottom: 366px;
+    left: 460px;
+  }
+ .imgcid34{
+    display: block;
+    height: 150px;
+    width: 230px;
+    background-image: url(../img/hong.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+  }
+  .cidade34 h1{
+    color: white;
+    font-size: 14pt;
+    padding-top: 20px;
+  }
+  .cidade34 p{
+    color: white;
+    padding: 0px 20px 0px 20px;
+    text-align: justify;
+  }
+  .asidecid34{
+    display: block;
+    padding: 4;
+    height: 150px;
+    width: 230px;
+    position: relative;
+    left: 230px;
+    bottom: 160px;
+  }
+  .reservarcid34{
+  width: 80pt;
+  left: 110px;
+  bottom: 10px;
+  font-size: 10pt;
+  color: white;
+  background-color:rgb(31,39,70);
+  border-radius: 10px;
+  position: relative;
+  }
+  .precocid34{
+    display:block;
+    background-color: rgb(31,39,70);
+    border-radius: 10px;
+    height: 25px;
+    width: 90px;
+    position: relative;
+    left: 15px;
+    bottom: 35px;
+    border-color: white;
+    border-style: ridge;
+  }
+  .precocid34 h1{
+    font-size: 10pt;
+    text-align: center;
+    padding: 0;
+    font-weight:normal;
+  }
 
 /* Footer */
 
