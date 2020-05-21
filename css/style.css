@@ -112,10 +112,17 @@ label {
 	margin-left: 19px;
 }
 .to {
+<<<<<<< HEAD
 	margin-left: 357px;
 }
 .cabin-class {
 	margin-left: 360px;
+=======
+	margin-left: 374px;
+}
+.cabin-class {
+	margin-left: 398px;
+>>>>>>> parent of 1a1b2bb... Merge branch 'master' of https://github.com/RodrigoFlorencio/ADSTravel
 }
 .departure {
 	margin-left: 14px;
